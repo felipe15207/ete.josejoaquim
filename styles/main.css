@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.conteudo-principal {
+  flex: 1 1 0;
+  background-color: transparent;
+}
+
+/* VARIÁVEIS DE COR */
+
+:root {
+    --cor-primaria: #0000aa;
+    --cor-texto: black;
+}
+
+/* VARIÁVEIS DE COR */
+
+/* CABEÇALHO */
+
+header.topo {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.menu ul li {
+    display: inline;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    padding-inline-start: 16px;
+}
+
+
+/* CABEÇALHO */
+
+
+/* CONTEÚDO PRINCIPAL */
+
+.wallpaper img {
+    width: 100%;
+}
+
+h3 {
+    margin-top: 16px;
+    padding-inline-start: 16px;
+    font-weight: 900;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+
+
+/* RODAPÉ */
+
+footer {
+    margin-bottom: 0;
+    margin-top: 10px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(6, 6, 6, 0.8)
+      ), url(/images/entrada-escola.jpeg);
+    background-position: 5px;
+    background-size: cover;
+    color: #fffdfd;
+    text-align: center;
+    padding: 20px;
+}
+
+.redes-sociais img {
+    width: 18px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+/* RODAPÉ */
