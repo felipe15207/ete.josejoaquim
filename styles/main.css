@@ -16,6 +16,7 @@ body {
   background-color: transparent;
 }
 
+
 /* VARIÁVEIS DE COR */
 
 :root {
@@ -24,6 +25,7 @@ body {
 }
 
 /* VARIÁVEIS DE COR */
+
 
 /* CABEÇALHO */
 
@@ -57,11 +59,15 @@ header.topo {
 
 .wallpaper img {
     width: 100%;
+    height: 500px;
+    object-fit: cover;
 }
 
 h3 {
     margin-top: 16px;
+    margin-bottom: 26px;
     padding-inline-start: 16px;
+    font-size: 28px;
     font-weight: 900;
 }
 
@@ -72,6 +78,8 @@ h3 {
 /* RODAPÉ */
 
 footer {
+    width: 100%;
+    height: auto;
     margin-bottom: 0;
     margin-top: 10px;
     background-image: linear-gradient(
