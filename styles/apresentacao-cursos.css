@@ -1,0 +1,24 @@
+
+h1, h2 {
+    font-weight: 900;
+    text-align: center;
+}
+
+.apresentacao-curso {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.apresentacao-curso .imagem-curso {
+    width: 900px;
+    height: 600px;
+}
+
+.apresentacao-curso .imagem-curso img {
+    width: 100%;
+    height: 100%;
+}
+
+.apresentacao-curso p {
+    padding-inline: 16px;
+}
