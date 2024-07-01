@@ -69,7 +69,7 @@ header.topo {
 
 .cabecalho #btn-menu .linha {
     width: 40px;
-    height:7px;
+    height:5px;
     border-radius: 10px;
     background-color: #818181;
     display: block;
@@ -80,13 +80,13 @@ header.topo {
 
 
 #btn-menu.ativado .linha:nth-child(1) {
-    transform: translateY(14px) rotate(-45deg);
+    transform: translateY(15px) rotate(-45deg);
 }
 
 #btn-menu.ativado .linha:nth-child(2) {
-    transform: rotate(-45deg);
-    width: 35px;
-    height: 1px;
+    width: 0x;
+    height: 0px;
+    background-color: aqua;
 }
 
 #btn-menu.ativado .linha:nth-child(3) {
