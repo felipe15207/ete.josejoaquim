@@ -30,50 +30,40 @@
 <body>
 
     <header class="topo">
-        <div class="cabecalho">
-            <div class="logo"><a href="index.html"><img src="images/logo-ete.png" alt=""></a><p>José Joaquim da Silva Filho</p></div>
+        <div class="container-logo">
+        <div class="logo"><img src="images/LOGO-ETE-SEMFUNDO-removebg-preview.png" alt=""></div>
 
-            <div class="contatos-topo">
-                <p>(81) 92222-4444</p>
-                <p>exemplo@gmail.com</p>
-            </div>
-
-            <div class="barra-de-pesquisa">
-                <input type="text" placeholder="BUSCA">
-            </div>
-
-            <button id="btn-menu">
-                <span class="linha"></span>
-                <span class="linha"></span>
-                <span class="linha"></span>
-            </button>
-
+        <div class="barra-pesquisa">
+            <form action="/search" method="get">
+                <input type="text" placeholder="Busca" name="search">
+                <button type="submit">Pesquisar</button>
+            </form>
         </div>
 
+    </div>
+
+        <button id="btn-menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+
         <div class="menu">
-            <ul class="lista-menu">
-                <li class="lista-item"><a href="cursos.html">CURSOS</a></li>
-                <li class="lista-item"><a href="#">SIEPE</a></li>
-                <li class="lista-item">
-                    <a href="#">LOCALIZAÇÃO<p class="triangulo">◢</p></a>
-                    <ul class="lista-submenu">
-                        <li class="lista-item-submenu">opção 2</li>
-                        <li class="lista-item-submenu">opção 1</li>
-                        <li class="lista-item-submenu">opção 3</li>
-                    </ul>
-                </li>
-                <li class="lista-item"><a href="#">LOGIN</a></li>
-                <li class="lista-item"><a href="#">DESENVOLVEDORES</a></li>
-            </ul>
+            <nav>
+                <ul class="lista-menu">
+                    <li><a href="">Início</a></li>
+                    <li><a href="">Cursos</a></li>
+                    <li><a href="">Estudantes</a></li>
+                    <li><a href="">Eventos</a></li>
+                    <li><a href="">Notícias</a></li>
+                </ul>
+            </nav>
         </div>
 
     </header>
 
     <div class="conteudo-principal">
         <header>
-            <div class="wallpaper">
-                <img src="images/slider-ete.jpeg" alt="">
-            </div>
 
             <h3>NOTÍCIAS</h3>
             <div class="slider-container">
@@ -116,8 +106,6 @@
         <section class="redes-sociais">
             <p>Nossas redes</p>
             <img src="images/instagram.png" alt="">
-            <img src="images/facebook.png" alt="">
-            <img src="images/linkedin.png" alt="">
             <img src="images/whatsapp.png" alt="">
           </section>
 

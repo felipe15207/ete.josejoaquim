@@ -55,7 +55,7 @@ header.topo {
     display: none;
 }
 
-.cabecalho #btn-menu {
+#btn-menu {
     width: 50px;
     height: 35px;
     border: none;
@@ -67,7 +67,7 @@ header.topo {
     cursor: pointer;
 }
 
-.cabecalho #btn-menu .linha {
+#btn-menu .linha {
     width: 40px;
     height:5px;
     border-radius: 10px;

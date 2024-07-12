@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    text-align: justify;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.conteudo-principal {
+  flex: 1 1 0;
+  background-color: transparent;
+}
+
+
+/* VARIÁVEIS DE COR */
+
+:root {
+    --cor-primaria: #0000aa;
+    --cor-fundo: white;
+    --cor-texto: black;
+}
+
+header.topo {
+    width: 100%;
+    height: 200px;
+}
+
+.topo .cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: "logo titulo";
+}
+
+.topo .cabecalho .logo {
+    grid-area: logo;
+}
+
+.topo .cabecalho .logo img {
+    width: 500px;
+    height: 120px;
+}
+
+.topo .cabecalho input {
+    height: 20px;
+}
+    </style>
+
+</head>
+<body>
+<div class="conteudo-principal">
+
+    <header class="topo">
+        <div class="cabecalho">
+            <div class="logo"><img src="images/LOGO-ETE-SEMFUNDO-removebg-preview.png" alt=""></div>
+
+            <input type="text">
+        </div>
+
+
+
+    </header>
+</div>
+    
+</body>
+</html>
