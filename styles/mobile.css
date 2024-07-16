@@ -4,12 +4,21 @@
     justify-content: space-evenly;
 }
 
-.contato-header:last-child p {
+.contato-header p {
     font-size: 0;
 }
 
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-
+.logo img {
+    margin-top: 0;
+    margin-left: 0;
+}
 
 .lista-menu {
     display: none;
