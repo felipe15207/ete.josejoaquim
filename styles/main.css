@@ -106,7 +106,8 @@ body {
 }
 
 .lista-menu > li:hover {
-    border-bottom: 3px solid #00A85A;
+    border-bottom: 3px solid #0056b3;
+    color: #0056b3;
 }
 
 .sub-lista {
@@ -139,6 +140,9 @@ body {
 
 .sub-lista li:hover {
     background-color: #f1f1f1;
+}
+
+.sub-lista li:hover a {
     color: #0056b3;
 }
 
