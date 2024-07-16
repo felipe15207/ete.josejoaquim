@@ -1,5 +1,14 @@
 /* CABEÇALHO */
 
+.info-header {
+    justify-content: space-evenly;
+}
+
+.contato-header:last-child p {
+    font-size: 0;
+}
+
+
 
 
 .lista-menu {
@@ -46,3 +55,14 @@
 }
 
 /* CABEÇALHO */
+
+
+/* RODAPÉ */
+
+footer {
+    grid-template-areas: 
+    "contatos"
+    "medias";
+}
+
+/* RODAPÉ */
