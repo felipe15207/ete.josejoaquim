@@ -81,6 +81,7 @@ body {
 .logo img {
     /*width: 400px;*/
     object-fit: cover;
+    
 }
 
 .lista-menu {
