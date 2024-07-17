@@ -68,36 +68,36 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    grid-template-areas: "logo menu login";
     position: relative;
 }
 
 .logo {
     width: auto;
-    grid-area: logo;
 }
 
 .logo img {
     /*width: 400px;*/
     margin-top: 25px;
     margin-left: 25px;
+    margin-right: 75px;
     object-fit: cover;
     
 }
 
 .lista-menu {
+    width: 40%;
     display: flex;
+    justify-content: center;
     align-items: center;
-    grid-area: menu;
 }
 
 .seta-menu {
-    margin-left: -10px;
+    margin-left: 2px;
     margin-bottom: -8px;
 }
 
 .lista-menu li {
-    padding: 0 15px;
+    padding-inline-start: 30px;
     list-style: none;
     display: inline;
     font-weight: 700;

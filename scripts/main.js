@@ -4,6 +4,7 @@
 $(document).ready(function(){
     $('#btn-menu').click(function(){
         $('#btn-menu').toggleClass('ativado');
+        $('.lista-menu').toggleClass('ativado');
     });
   });
 
