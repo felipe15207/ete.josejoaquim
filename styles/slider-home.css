@@ -34,7 +34,7 @@
     font-size: 20px; /* Tamanho da fonte */
     padding: 10px 20px; /* Acolchoamento interno */
     cursor: pointer; /* Indicar que é clicável */
-    top: 0;
+    top: 50%;
 }
 
 .btn-prev {

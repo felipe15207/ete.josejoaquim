@@ -5,7 +5,7 @@ $('.slider-container').slick({
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 3,
-    slidesToScroll: 1,
+    //slidesToScroll: 5,
     prevArrow: '<i class="fas btn-prev">&lt;</i>',
     nextArrow: '<i class="fas btn-next">&gt;</i>',
     responsive: [

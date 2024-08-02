@@ -1,49 +1,52 @@
+
+
 /* CABEÇALHO */
 
-.info-header {
-    justify-content: space-evenly;
+.menu {
+    width: 100%;
+    height: 96px;
+    justify-content: center;
+    align-items: center;
 }
 
-.contato-header p {
-    font-size: 0;
-}
-
-.logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+/*.logo {
+    margin-top: 10px;
+}*/
 
 .logo img {
-    margin-top: 0;
-    margin-left: 0;
+    width: auto;
+    height: 70px;
 }
 
-.lista-menu {
+.nav {
+    width: auto;
+}
+
+.lista-nav {
     display: none;
 }
 
-.lista-menu.ativado {
+.lista-nav.ativado {
     display: block;
     width: 320px;
     height: 100vh;
     flex-direction: column;
     position:fixed;
     top: 0;
+    left: 0;
     z-index: 1000;
     background-color: #FFF;
 }
 
-.lista-menu li {
+.lista-nav li {
     display: block;
 }
 
-.lista-menu > li:first-child {
+.lista-nav > li:first-child {
     margin-top: 140px;
 }
 
-.lista-menu > li {
+.lista-nav > li {
     margin-top: 25px;
 }
 
@@ -64,6 +67,9 @@
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
+    position: absolute;
+    top: 10;
+    left: 0;
 }
 
 #btn-menu .linha {
@@ -92,15 +98,11 @@
     transform: translateY(-14px) rotate(45deg);
 }
 
-/* CABEÇALHO */
 
-
-/* RODAPÉ */
-
-footer {
-    grid-template-areas: 
-    "contatos"
-    "medias";
+.login {
+    position: absolute;
+    top: 36px;
+    right: 0;
 }
 
-/* RODAPÉ */
+/* CABEÇALHO */
